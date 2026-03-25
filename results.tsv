@@ -1,0 +1,13 @@
+commit	feature	status	time_spent	description
+init001	project-structure	keep	5min	Initial project structure: backend (FastAPI), frontend (React+Vite), docker-compose
+init002	core-config	keep	3min	Core configuration: settings, middleware, database models
+init003	auth-api	keep	5min	Authentication API: register, login (JWT), user info endpoints
+init004	workflows-api	keep	5min	Workflows API: CRUD operations for workflow management
+init005	agents-api	keep	5min	Agent templates API: built-in templates (ReAct, Plan-Execute, Multi-Agent)
+init006	executions-api	keep	5min	Executions API: start, monitor, cancel workflow executions
+init007	workflow-executor	keep	10min	Workflow executor using LangGraph: graph building, node execution
+init008	frontend-setup	keep	5min	Frontend setup: React, Vite, ReactFlow, Ant Design
+init009	auth-pages	keep	3min	Login page with registration, auth store with Zustand
+init010	workflow-editor	keep	10min	Visual workflow editor: ReactFlow canvas, node palette, save/load
+init011	agents-page	keep	3min	Agent templates page: list, create custom templates
+init012	executions-page	keep	3min	Executions page: list, status, logs, polling
